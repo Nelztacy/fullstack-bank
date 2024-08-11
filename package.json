@@ -1,7 +1,7 @@
 {
   "name": "fullstack-bank",
   "version": "1.0.0",
-  "description": "Full stack fine tech app with Next.js and Express.js",
+  "description": "Full stack fintech app with Next.js and Express.js",
   "main": "index.js",
   "scripts": {
     "test:e2e": "cypress run --browser electron --e2e",
@@ -15,6 +15,9 @@
   },
   "author": "Raphael Martins",
   "license": "ISC",
+  "dependencies": {
+    "next": "^14.2.5"
+  },
   "devDependencies": {
     "@testing-library/cypress": "^8.0.7",
     "@types/mocha": "^10.0.0",
